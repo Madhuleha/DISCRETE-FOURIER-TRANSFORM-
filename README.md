@@ -9,6 +9,7 @@ PC installed with SCILAB.
 
 # PROGRAM: 
 // DISCRETE FOURIER TRANSFORM 
+```
 clc;
 clear;
 
@@ -53,6 +54,7 @@ xtitle("Magnitude Spectrum using FFT");
 subplot(2,1,2);
 plot2d3(f, atan(imag(X_fft), real(X_fft))); // atan2 equivalent
 xtitle("Phase Spectrum using FFT");
+```
 
 # OUTPUT: 
 ![WhatsApp Image 2025-10-24 at 13 29 04_f23ec754](https://github.com/user-attachments/assets/f2dbd7c1-b91a-4969-9055-bda3ac597de3)
